@@ -5,12 +5,8 @@
 <title></title>
 </head>
  <script language="javascript">
-var domain = "换成你自己的新域名";
-var src = window.location.href;
-var prtc = src.substring(0, src.indexOf(':'));
-var target = src.substring(src.indexOf('/', src.indexOf(':') + 3));
-window.location.href = prtc + "://" + domain + target;
-location.href=prtc + "://" + domain + target;
+if (document.domain =='yuanba.tech')
+this.location = "https://www.bigdatadecode.top" + this.location.pathname + this.location.search;
 </script>
 <body>
  <h1></h1>
